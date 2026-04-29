@@ -50,6 +50,12 @@
             border-left: 5px solid #2a5298;
         }
 
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
         footer {
             text-align: center;
             padding: 15px;
@@ -90,11 +96,13 @@
 
     <div class="card">
         <h3>💻 Tema 1: Hardware</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Computer_components.jpg">
         <p>Partes físicas del computador como teclado, mouse y CPU.</p>
     </div>
 
     <div class="card">
         <h3>🧠 Tema 2: Software</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Software-diagram.png">
         <p>Programas que hacen funcionar el computador.</p>
     </div>
 
@@ -118,9 +126,9 @@
 </footer>
 
 <script>
-    function mensaje() {
-        alert("¡Bienvenido a mi página web 😎!");
-    }
+function mensaje() {
+    alert("¡Bienvenido a mi página web 😎!");
+}
 </script>
 
 </body>
